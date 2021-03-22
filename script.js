@@ -18,12 +18,12 @@ function solve () {
   output = output * 2
   document.getElementById('output').innerHTML = output
   if (l1 < 1) {
-    document.getElementById('output').innerHTML = 'error:one or more of your imputed numbers are ether 0 or negative'
+    document.getElementById('output').innerHTML = 'error:one or more of your imputed numbers are either 0 or negative'
   }
   if (l2 < 1) {
-    document.getElementById('output').innerHTML = 'error:one or more of your imputed numbers are ether 0 or negative'
+    document.getElementById('output').innerHTML = 'error:one or more of your imputed numbers are either 0 or negative'
   }
   if (h < 1) {
-    document.getElementById('output').innerHTML = 'error:one or more of your imputed numbers are ether 0 or negative'
+    document.getElementById('output').innerHTML = 'error:one or more of your imputed numbers are either 0 or negative'
   }
 }
