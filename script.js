@@ -15,7 +15,7 @@ function solve () {
   h = parseInt(h)
   output = l1 + l2
   output = output * h
-  output = output * 2
+  output = output / 2
   document.getElementById('output').innerHTML = output
   if (l1 < 1) {
     document.getElementById('output').innerHTML = 'error:one or more of your imputed numbers are either 0 or negative'
