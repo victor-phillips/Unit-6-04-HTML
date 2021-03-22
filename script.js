@@ -5,7 +5,7 @@ let h = 0
 let output = 0
 // detects when button is pressed
 document.getElementById('button').addEventListener('click', solve)
-// calculates the area
+// calculates the area and tests if inputs are 0 or below
 function solve () {
   l1 = document.getElementById('num1').value
   l1 = parseInt(l1)
