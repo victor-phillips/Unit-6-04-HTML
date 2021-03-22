@@ -20,10 +20,10 @@ function solve () {
   if (l1 < 1) {
     document.getElementById('output').innerHTML = 'error:one or more of your imputed numbers are ether 0 or negative'
   }
-   if (l2 < 1) {
+  if (l2 < 1) {
     document.getElementById('output').innerHTML = 'error:one or more of your imputed numbers are ether 0 or negative'
   }
-   if (h < 1) {
+  if (h < 1) {
     document.getElementById('output').innerHTML = 'error:one or more of your imputed numbers are ether 0 or negative'
   }
 }
